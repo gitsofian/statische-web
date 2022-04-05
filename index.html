@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <p style="font-size: 1.5em">
+        The <i>snowclone</i> is a kind of <i>phrasal template</i> since it comes
+        with one or more empty "slots" that get filled with words to create a
+        new phrase. Some examples:
+      </p>
+      <ul
+        style="
+          color: darkgreen;
+          font-family: 'Trebuchet MS', sans-serif;
+          font-size: 1.25em;
+        "
+      >
+        <li>I'm not an X, but I play one on TV</li>
+        <li>In X, no one can hear you Y</li>
+        <li>X and Y and Z, oh my!</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>
+        The Mozilla Developer Network has this to say about the
+        <code>style</code> attribute:
+      </p>
+      <blockquote
+        style="color: darkgray; font-family: Georgia; font-style: italic"
+      >
+        Note that it is recommended for styles to be defined in a separate file
+        or files. This attribute and the &lt;style&gt; element have mainly the
+        purpose of allowing for quick styling, for example for testing purposes.
+      </blockquote>
+    </div>
+    <!--Inserting Inline Styles-->
+    <div>
+      <p>
+        Having trouble falling asleep? A surefire remedy is to read the
+        <a
+          href="https://www.w3.org/TR/css-style-attr/"
+          style="color: indianred; font-weight: bold, text-decoration: none;"
+          >official W3C specification</a
+        >
+        for the <code>style</code> attribute. Sweet dreams!
+      </p>
+    </div>
+
+    <!--Adding an Internal Style Sheet-->
+    <div>
+      <style>
+        dt {
+          font-size: 1.3rem;
+          font-weight: bold;
+        }
+        dd {
+          font-size: 1.2rem;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: cadetblue;
+        }
+        p#main {
+          font-size: 1.2rem;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: 300;
+          color: chocolate;
+        }
+      </style>
+
+      <p id="main">Some movie jobs to commit to memory:</p>
+      <dl>
+        <dt>Gaffer</dt>
+        <dd>The head electrician.</dd>
+        <dt>Best Boy</dt>
+        <dd>The gaffer's assistant.</dd>
+        <dt>Grip</dt>
+        <dd>A person who moves equipment.</dd>
+      </dl>
+    </div>
+  </body>
+</html>

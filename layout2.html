@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout2</title>
+    <style>
+      html {
+        border: 2px solid violet;
+        height: 100vh;
+      }
+      .eltern {
+        border: 2px solid red;
+        margin: 50px 20px 20px 20px;
+        height: 100px;
+      }
+      .kind {
+        border: 2px dashed red;
+        position: relative;
+        top: 20px;
+        left: 20px;
+        width: 200px;
+        height: 300px;
+        color: red;
+      }
+      .eltern-2 {
+        border: 2px dashed green;
+        position: absolute;
+        right: 10px;
+        bottom: 70px;
+        width: 40px;
+        height: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="eltern">
+      <div class="kind">Hallo Welt!</div>
+    </div>
+    <div class="eltern-2">Hi E2</div>
+  </body>
+</html>

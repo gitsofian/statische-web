@@ -1,0 +1,17 @@
+html {
+  border: solid 4px yellow;
+}
+
+body {
+  max-width: 650px;
+  line-height: 1.25;
+}
+
+code {
+  font-size: 3rem;
+}
+
+.main {
+  color: red;
+  font-size: 2rem;
+}
