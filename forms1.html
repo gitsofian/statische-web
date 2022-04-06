@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Document</title>
+    <style>
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+      }
+      .container {
+        margin: 10px;
+      }
+      .feld {
+        margin: 20px;
+        border: 1px solid green;
+      }
+      #vorname {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form action="request.js" method="get">
+          <div class="feld">
+            <label for="vormane"><span>Vorname</span></label>
+            <input
+              type="text"
+              id="vorname"
+              name="vorname"
+              size="25"
+              maxlength="25"
+              placeholder="Ihr Vorname"
+            />
+          </div>
+
+          <div class="feld">
+            <label for="nachname"><span>Nachname</span></label>
+            <input
+              type="text"
+              id="nachname"
+              name="nachname"
+              size="25"
+              maxlength="25"
+              placeholder="Ihr Nachname"
+            />
+          </div>
+          <div class="feld">
+            <label for="benutzname"><span>Benutzname</span></label>
+            <input
+              type="text"
+              id="benutzname"
+              name="benutzname"
+              size="25"
+              maxlength="25"
+              placeholder="Ihr Benutzname"
+            />
+          </div>
+          <div class="feld">
+            <label for="request"><span>Ihre Nachricht</span></label>
+            <textarea
+              name="request"
+              id="request"
+              cols="30"
+              rows="10"
+              placeholder="Ihre Nachricht in 100 Wörte"
+            ></textarea>
+          </div>
+          <div class="fel">
+            <input type="button" id="btn-submit" value="Submit" />
+            <input type="button" id="btn-cancel" value="Abrechen" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

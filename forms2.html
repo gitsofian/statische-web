@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form mit Tabelle</title>
+    <style>
+      tr {
+        margin: 5px;
+      }
+      td {
+        width: 100px;
+        border: 2px solid red;
+        padding: 4px;
+      }
+      select {
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption></caption>
+
+      <tbody>
+        <tr>
+          <td>
+            <label for="vorname">Vorname</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="vorname"
+              name="vorname"
+              size="25"
+              maxlength="25"
+              placeholder="Ihr Vorname"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="nachname">Nachname</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="nachname"
+              name="nachname"
+              size="25"
+              maxlength="25"
+              placeholder="Ihr Nachname"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="email">E-Mail</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              size="25"
+              maxlength="25"
+              placeholder="Ihre E-Mail"
+            />
+          </td>
+        </tr>
+        <!-- Buchung Zeit-->
+        <tr>
+          <td>
+            <label for="buchungdate">Buchung Zeit</label>
+          </td>
+          <td>
+            <input
+              type="date"
+              id="buchungzeit"
+              name="buchungzeit"
+              size="25"
+              maxlength="25"
+              placeholder="Ihre Buchung Zeit"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <hr />
+    </div>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="Cars">Marke</label></td>
+          <td>
+            <select name="car" id="car" size="1">
+              <option value="vw">VW</option>
+              <option value="mercedes">MERCEDES</option>
+              <option value="bmw">BMW</option>
+              <option value="opel">OPEL</option>
+              <option value="porche">PORCHE</option>
+              <option value="nissan">NISSAN</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="energie">Benzin</label></td>
+          <td>
+            <input type="radio" id="energie" name="energie" value="Benzin" />
+          </td>
+          
+          <td><label for="gasoil">Gasoil</label></td>
+          <td>
+            <input type="radio" id="gasoil" name="gasoil" value="Gasoil" />
+          </td>
+
+          <td><label for="energie">Benzin</label></td>
+          <td>
+            <input type="radio" id="energie" name="energie" value="Benzin" />
+          </td>
+
+          <input type="radio" id="energie" name="energie" value="Gasoil" />
+          <input type="radio" id="energie" name="energie" value="LPG" />
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
