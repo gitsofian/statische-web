@@ -1,0 +1,109 @@
+body {
+    margin: 2em;
+    font-size: 1.25em;
+}
+
+h1 {
+    background-color: aqua;
+}
+h2 {
+    background-color: bisque;
+}
+
+li {
+    font-size: 44px;
+}
+p.index {
+    background-color:aqua;
+    font-size: 44px
+}
+
+p.home {
+    background-color:yellow;
+    font-size: 44px
+}
+p.kontakt {
+    background-color:yellowgreen;
+    font-size: 44px;
+}
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: pink;
+}
+
+ul {
+    list-style-type: circle;
+}
+ul li {
+   color: blueviolet;
+   background-color: beige; 
+}
+
+/* Table Person */
+
+.container {
+    width: 1000px;
+}
+
+.person-table {
+    font-size: 1.2em;
+}
+.person-table thead {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .9em;
+    background-color: aqua;
+}
+
+.person-table th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+    border-style: double;
+    border-radius: 10px;
+    width: 10em;
+    text-align: center;
+}
+
+.person-table td {
+    background-color: blanchedalmond;
+}
+    
+
+/* Table Animals */
+.animals td {
+    text-align: center;
+
+}
+.animals a {
+    text-decoration: none;
+    color: black;
+}
+.animals a:hover {
+    color:saddlebrown;
+    font-size: 2em;
+}
+
+/*
+    Abbildung mit Unterschrift
+*/
+#uk_bild {
+    border-radius: 50%;
+}
+
+/* 
+    container news
+*/
+
+.container_news {
+    background-color: yellow;
+
+}
+
+/*
+Layout Seite
+*/

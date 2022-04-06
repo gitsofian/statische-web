@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Schriftbild</title>
+    <style>
+        body{
+            margin: 10px;
+            background-image: url('img/bg-img.jpg');
+            background-repeat: no-repeat;
+            background-origin: content-box;
+            background-size: cover;
+        }
+      #font-fam {
+        color: red;
+        font-size: small;
+        font-style: italic;
+        font-variant: small-caps;
+        font-size: 0.9em;
+        line-height: 1em;
+        font-weight: 900;
+      }
+      #title {
+        color: aqua;
+      }
+      #para1 {
+        font-size: medium;
+        letter-spacing: 0.2em;
+        word-wrap: break-word;
+        text-align: justify
+        text-decoration: overline;
+        text-transform: capitalize;
+      }
+      #para2 {
+          text-align: justify;
+          letter-spacing: .2em;
+      }
+      #submit {
+          color: blueviolet;
+          font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="font-fam">
+      <h1>Weiterbildung IT-Expert Data Science / Web Developer</h1>
+    </div>
+    <div>
+      <h2 id="title">Text Lorem Ipsum</h2>
+      <p id="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus
+        veritatis quam nisi voluptates rerum ut odio dolore, ea nobis, id
+        doloremque fugit corporis? Quo ut necessitatibus facilis quod. Numquam,
+        doloribus! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ipsa, repudiandae! Nobis ducimus tempore impedit repellat cupiditate
+        recusandae vero labore ratione expedita quis. Soluta quos exercitationem
+        aliquid perferendis obcaecati. Alias, eligendi!
+      </p>
+
+      <p id="para2">
+        Modi blanditiis amet ea eum non quasi odit consequuntur. Aut nostrum,
+        aliquam labore voluptatibus enim beatae quae expedita provident ipsum
+        recusandae velit amet distinctio consequatur unde soluta, accusamus quod
+        illo! Nemo, molestiae repellat dolor ipsam totam tempora velit atque
+        earum adipisci, nulla voluptates eaque nihil culpa odit nisi at possimus
+        unde fugit reprehenderit perferendis cupiditate facilis corporis. Fugit,
+        minima aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quos voluptate eum earum cum sit velit ducimus enim cumque ad, nisi
+        laboriosam quaerat veniam. Doloribus ducimus alias non repellendus.
+        Esse, perferendis? Quae cum tenetur possimus voluptatum voluptas,
+        ratione nisi temporibus omnis aliquid inventore placeat magni vitae
+        soluta neque perferendis, recusandae, modi nemo? Soluta natus maxime
+        nisi! Velit molestias quia placeat veritatis? Consectetur eum, sit
+        impedit sint dolor aliquam, exercitationem nesciunt, excepturi maxime
+        tenetur cum facere ipsam ullam dignissimos fugiat similique mollitia ea!
+        Veniam dolorum illo, quibusdam nam facilis ipsam necessitatibus
+        expedita? Voluptas amet dolores, voluptates optio repellendus deserunt
+        quis laborum expedita incidunt, totam odio? Eveniet deleniti assumenda
+        exercitationem inventore neque perferendis sint totam quibusdam tempora?
+        Commodi officiis ipsum numquam cupiditate deleniti! Qui eveniet dolorum
+        cum nam eaque velit. Pariatur officia sequi deleniti vero, laboriosam ad
+        nobis ea aut id, quibusdam delectus. Praesentium deleniti repellendus
+        delectus impedit, animi dolorum assumenda alias quibusdam?
+      </p>
+      <button id="submit" type="submit" [disabled]="!form.form.valid">
+        Save
+      </button>
+    </div>
+  </body>
+</html>
