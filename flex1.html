@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Document</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: dodgerblue;
+            height: 100vh;
+        }
+        
+        .flex-container>div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+            font-size: 1.5em;
+            height: auto;
+        }
+        
+        .div-1 {
+            order: 2;
+            flex-grow: 2;
+        }
+        
+        .div-2 {
+            order: 3;
+            flex-grow: 3;
+        }
+        
+        p {
+            font-size: 1.5em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="div-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magnam assumenda in libero incidunt quis debitis natus veniam optio qui saepe iure tempora, eligendi laborum vitae hic sit reprehenderit perspiciatis.
+        </div>
+        <div class="div-2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus incidunt, quae, optio ea aliquam nesciunt minima minus sunt rerum amet, eius fugiat enim voluptatibus ipsum nulla cumque delectus officiis quia? Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Tempora, veniam dolores! Libero, atque fugiat. Impedit optio delectus necessitatibus excepturi quae earum veritatis non dignissimos, nihil iusto hic culpa, enim molestiae.
+        </div>
+        <div style="order: 5; flex-grow: 2;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt possimus alias voluptatem odio earum perferendis fuga officiis? Sapiente neque omnis doloremque veritatis. Delectus aspernatur sunt molestias illum, asperiores in ex.
+        </div>
+        <div style="order: 1; flex-grow: 2;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aliquid doloribus qui possimus, libero corporis doloremque quaerat accusantium consequuntur voluptates fugit ad veritatis iste. Officiis, vero! Veritatis, quisquam nisi. Repellat?
+        </div>
+        <div style="order: 4; flex-grow: 2;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, repudiandae esse! Modi ipsam quibusdam molestias aperiam amet ut praesentium, corrupti recusandae, voluptate exercitationem ratione eveniet nesciunt error laborum, mollitia et?
+        </div>
+    </div>
+    <p>A Flexible Layout must have a parent element with the <em>display</em> property set to <em>flex</em>.</p>
+    <p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+</body>
+
+</html>
